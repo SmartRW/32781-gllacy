@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
     <link rel="stylesheet" href="css/normalize-min.css">
-    <link rel="stylesheet" href="css/style-min.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="mainHeader">
@@ -12,7 +12,7 @@
         <img src="./img/logo.svg" alt="Логотип магазина Gllacy" width="154" height="64">
       </a>
       <ul class="mainNavigation">
-        <li>
+        <li class="catalogContainer">
           <a class="mainNavigationItem mainNavigationCurrent" href="#">Каталог</a>
           <ul class="catalogList">
             <li>
@@ -65,46 +65,46 @@
           </form>
         </li>
         <li>
-          <a class="userNavigationItem basketButton basketFull" href="#">
+          <a class="userNavigationItem cartButton cartFull" href="#">
             <span class="visuallyHidden">Корзина</span>
             <span class="goodsQuantity">2 товара</span>
           </a>
           <div class="userNavigationPopup">
-            <table class="basketContent">
-              <tr class="basketGoodItem">
-                <td class="basketGoodDeletion">
+            <table class="cartContent">
+              <tr class="cartGoodItem">
+                <td class="cartGoodDeletion">
                   <button class="deleteGood">
                     <span class="visuallyHidden">Удалить товар из корзины</span>
                   </button>
                 </td>
-                <td class="basketGoodPreview">
+                <td class="cartGoodPreview">
                   <img src="./img/product-1-small.jpg" alt="Пломбир с апельсиновым джемом" width="33" height="33">
                 </td>
-                <td class="basketGoodDescription">
+                <td class="cartGoodDescription">
                   Пломбир с апельсиновым джемом
                 </td>
-                <td class="basketGoodQuantity">1,5 кг х</td>
-                <td class="basketGoodPrice">200 руб.</td>
-                <td class="basketGoodTotal">300 руб.</td>
+                <td class="cartGoodQuantity">1,5 кг х</td>
+                <td class="cartGoodPrice">200 руб.</td>
+                <td class="cartGoodTotal">300 руб.</td>
               </tr>
-              <tr class="basketGoodItem">
-                <td class="basketGoodDeletion">
+              <tr class="cartGoodItem">
+                <td class="cartGoodDeletion">
                   <button class="deleteGood">
                     <span class="visuallyHidden">Удалить товар из корзины</span>
                   </button>
                 </td>
-                <td class="basketGoodPreview">
+                <td class="cartGoodPreview">
                   <img src="./img/product-3-small.jpg" alt="Пломбир с апельсиновым джемом" width="33" height="33">
                 </td>
-                <td class="basketGoodDescription">
+                <td class="cartGoodDescription">
                   Клубничный пломбир с присыпкой из белого шоколада
                 </td>
-                <td class="basketGoodQuantity">1,5 кг х</td>
-                <td class="basketGoodPrice">300 руб.</td>
-                <td class="basketGoodTotal">450 руб.</td>
+                <td class="cartGoodQuantity">1,5 кг х</td>
+                <td class="cartGoodPrice">300 руб.</td>
+                <td class="cartGoodTotal">450 руб.</td>
               </tr>
             </table>
-            <span class="basketTotal">Итого: 750 руб.</span>
+            <span class="cartTotal">Итого: 750 руб.</span>
             <a href="#" class="commonButton">Оформить заказ</a>
           </div>
         </li>
